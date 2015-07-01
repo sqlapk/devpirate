@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script language="JavaScript">
+<!--
+function selectChange() {
+   selldx = document.forms[0].marsupials.selectedIndex;
+   newSel = document.forms[0].marsupials.options[selldx].value;
+   alert("Выбран новый элемент: " + newSel);
+    document.video_frame.setAttribute('src',newSel);
+}
+//$(function ()
+//  {
+//    $(".inpAtr").onchange(function() {
+//    var o=$(".inpAtr").val();
+//    alert(o);});www
+//  }
+//  );
+function paste_option()
+        {
+            //tmp=document.all.
+        }
+</script>
+</head>1
+<body>
+   <div id="dtest">div test</div>
+   <option value="/disk/html5_2015_lynda/01.begin/01_01-Begin.mp4">Выбериет урок</option>
+    <select onchange="document.getElementById('video_frame').setAttribute('src',this.options[this.selectedIndex].value)" name="lessons" id="curs" >
+     <option value="/disk/html5_2015_lynda/01.begin/01_01-Begin.mp4">урок 1</option>
+     <option value="/disk/html5_2015_lynda/01.begin/01_02-Files.mp4">урок 2</option>
+     <option value="/disk/html5_2015_lynda/01_01-Begin.mp4">урок 3</option>
+    </select>
+    <br>
+<iframe id="video_frame"   width="560" height="315" controls   frameborder="0"  src=""></iframe>
+<input type="text">
+<br>
+<input class="inpAtr" type="radio" name="testAtr"  value="file" checked>
+<input class="inpAtr" type="radio" name="testAtr" value="text" checked>
+<input id="test" type="text" placeholder="Испытание атримута у инпута">
+<form>
+
+Выберите сумчатое животное:
+<select   name="marsupials" onChange="selectChange()">
+    <option value="/disk/html5_2015_lynda/01.begin/01_01-Begin.mp4">урок 1</option>
+    <option value="/disk/html5_2015_lynda/02/">урок 2</option>
+    <option value="/disk/html5_2015_lynda/01_01-Begin.mp4">урок 3</option>
+</select>
+</form>
+</body>
+</html>
